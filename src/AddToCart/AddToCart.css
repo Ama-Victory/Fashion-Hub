@@ -1,0 +1,308 @@
+.CheckoutReview{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.CheckoutInnerRapper{
+    width: 90%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.CheckoutReviewContainerinner{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.CheckoutContainerRapper1{
+    width: 50%;
+    height: max-content;
+}
+
+.CheckoutContainerRapper2{
+    width: 50%;
+    height: max-content;
+}
+
+.CheckoutType{
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+.CheckoutCard{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkoutPaypal{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.CheckoutPaypalDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+
+.checkoutIcons2{
+    font-size: 26px;
+    padding-top: 5px;
+}
+
+.checkoutIcons3{
+    font-size: 26px;
+    padding-top: 5px;
+    color: rgb(10, 10, 149);
+}
+
+.CheckoutIcons1{
+    cursor: pointer;
+}
+
+.CheckoutContainerTwo{
+    width: 100%;
+    height: max-content;
+    /* background-color: bisque; */
+    padding-top: 20px;
+}
+
+.CheckoutContainerinsiderapper{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 30px;
+
+}
+
+.CheckoutInputdiv1{
+    width: 65%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid rgb(113, 111, 111);
+    outline: none;
+}
+
+.CheckoutInputdiv2{
+    width: 65%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(131, 125, 125);
+}
+
+
+.CheckoutInputdiv3{
+    width: 46%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(155, 153, 153);
+}
+
+.CheckoutInputdiv4{
+    width: 46%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(122, 119, 119);
+}
+
+.CheckOutInputContainerRapper{
+    width: 65%;
+    height: 40px;
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+
+.CheckoutpTag{
+    font-size: 13px;
+    color: rgb(145, 141, 141);
+    padding-top: 20px;
+}
+
+.CheckoutButtonContainer{
+    width: 65%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CheckoutButtonTag1{
+    width: 40%;
+    height: 40%;
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+    border-radius: 40px;
+    font-weight: 600;
+}
+
+.CheckoutButtonTag2{
+    width: 40%;
+    height: 40%;
+    background-color: red;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    font-weight: 600;
+}
+
+.CheckoutContainerRapper2inner{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* .clearAll-Div{
+    width: 20%;
+    height: 10%;
+    display: flex;
+    justify-content: end;
+    background-color: green;
+} */
+
+
+ .clearAll{
+    color: white;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    /* display: flex; */
+    /* justify-content: end; */
+} 
+
+.CheckOutItemsListed{
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: space-between;
+}
+
+.Checkoutlistinside1{
+    width: 30%;
+    height: 100%;
+    display: flex;
+}
+
+.CheckoutProduct{
+    width: 40%;
+    height: 100%;
+    background-image: url(./src/assets/Nailss.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.ptageCheckout{
+    font-size: 6px,
+}
+
+.CheckoutProductInfo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 11px;
+    justify-content: center;
+    color: rgb(59, 59, 59);
+}
+
+.checkoutlistinside2{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CheckoutnumberHolder{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CheckoutAmount{
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+
+.CheckoutIconsAdd{
+    font-size: 20px;
+    
+}
+
+.CheckoutListinside3{
+    width: 20%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CheckoutDelete{
+    font-size: 20px;
+    color: rgb(226, 43, 43);
+}
+
+.CheckoutTotalCalculation{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: end;
+}
+
+.CheckoutTotalCalculationInner{
+    width: 40%;
+    height: 70px;
+    border-radius: 5px;
+    background-color: rgb(240, 241, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}

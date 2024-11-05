@@ -1,0 +1,66 @@
+.cart {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid pink;
+  width: 90vw;
+  background-color: pink;
+
+  padding: 1rem;
+}
+
+h3 {
+  font-size: clamp(1.5rem, 2vw, 1rem);
+  color: blue;
+}
+
+.cartOutput {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 2rem;
+
+  button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    background-color: blue;
+    padding: 0.5rem;
+  }
+
+  ul {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+
+    li {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      > :nth-child(2) {
+        display: flex;
+        flex-flow: column;
+        gap: 0.5rem;
+
+        > :nth-child(2) {
+          display: flex;
+          align-items: center;
+
+          > * {
+            border: 1px solid black;
+            height: 2rem;
+            width: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}
